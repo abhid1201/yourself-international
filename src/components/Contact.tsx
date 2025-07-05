@@ -27,7 +27,7 @@ const Contact = () => {
                 </h3>
               </div>
               <p className="text-gray-300 mb-6">
-                Join our network of 150+ distributors and be part of India's most 
+                Join our network of 200+ distributors and be part of India's most 
                 innovative water company. We're expanding our reach and looking for 
                 passionate partners who share our vision.
               </p>
@@ -52,19 +52,19 @@ const Contact = () => {
               <div className="grid grid-cols-2 gap-4 mt-4">
                 <div className="text-sm">
                   <div className="font-semibold">🚀 Innovation</div>
-                  <div className="text-xs opacity-90">Industry-first technology</div>
+                  <div className="text-s opacity-90">Industry-first technology</div>
                 </div>
                 <div className="text-sm">
                   <div className="font-semibold">🌱 Sustainability</div>
-                  <div className="text-xs opacity-90">Eco-tuned bottles</div>
+                  <div className="text-s opacity-90">Eco-tuned bottles</div>
                 </div>
                 <div className="text-sm">
                   <div className="font-semibold">🤝 Support</div>
-                  <div className="text-xs opacity-90">Comprehensive training</div>
+                  <div className="text-s opacity-90">Comprehensive training</div>
                 </div>
                 <div className="text-sm"> 
                   <div className="font-semibold">📈 Growth</div>
-                  <div className="text-xs opacity-90">Expanding market</div>
+                  <div className="text-s opacity-90">Expanding market</div>
                 </div>
               </div>
             </div>

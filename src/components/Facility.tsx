@@ -37,7 +37,7 @@ const Facility = () => {
               </p>
             </div>
             
-            <div className="bg-gradient-to-r from-teal-500 to-blue-500 text-white rounded-xl p-6">
+            <div className="bg-gradient-to-r from-teal-500 to-blue-500 text-white rounded-xl p-6 ">
               <h4 className="text-xl font-bold mb-2">Production Capacity</h4>
               <div className="text-3xl font-bold mb-1">16,800</div>
               <div className="text-sm">Bottles per Hour</div>
