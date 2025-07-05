@@ -70,7 +70,7 @@ const Facility = () => {
                   <div className="font-semibold">Compressor Machine</div>
                 </div>
                 <div className="bg-white/20 rounded-lg p-3">
-                  <div className="font-semibold">Label & BoppMachine</div>
+                  <div className="font-semibold">Label & Bopp Machine</div>
                 </div>
                 <div className="bg-white/20 rounded-lg p-3">
                   <div className="font-semibold">Shrink Machine</div>
