@@ -67,16 +67,16 @@ const Facility = () => {
                   <div className="font-semibold">Blowing Machine</div>
                 </div>
                 <div className="bg-white/20 rounded-lg p-3">
-                  <div className="font-semibold">Compressor</div>
+                  <div className="font-semibold">Compressor Machine</div>
                 </div>
                 <div className="bg-white/20 rounded-lg p-3">
-                  <div className="font-semibold">Label</div>
+                  <div className="font-semibold">Label & BoppMachine</div>
                 </div>
                 <div className="bg-white/20 rounded-lg p-3">
-                  <div className="font-semibold">Shrink</div>
+                  <div className="font-semibold">Shrink Machine</div>
                 </div>
                 <div className="bg-white/20 rounded-lg p-3">
-                  <div className="font-semibold">Laser</div>
+                  <div className="font-semibold">Laser Machine</div>
                 </div>
               </div>
             </div>
