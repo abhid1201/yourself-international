@@ -15,7 +15,7 @@ const CompanyStory = () => {
         
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-r from-blue-50 to-teal-50 shadow-lg rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Leadership Excellence
               </h3>
@@ -30,12 +30,12 @@ const CompanyStory = () => {
             </div>
             
             <div className="grid grid-cols-2 gap-6">
-              <div className="text-center p-6 bg-blue-50 rounded-xl">
+              <div className="text-center p-6 bg-blue-50 rounded-xl shadow-lg">
                 <Calendar className="h-8 w-8 text-blue-600 mx-auto mb-3" />
                 <div className="text-2xl font-bold text-blue-600 mb-1">2021</div>
                 <div className="text-gray-700">Year Founded</div>
               </div>
-              <div className="text-center p-6 bg-teal-50 rounded-xl">
+              <div className="text-center p-6 bg-teal-50 rounded-xl shadow-lg">
                 <Award className="h-8 w-8 text-teal-600 mx-auto mb-3" />
                 <div className="text-2xl font-bold text-teal-600 mb-1">First</div>
                 <div className="text-gray-700">Nano-RO in Market</div>
@@ -44,7 +44,7 @@ const CompanyStory = () => {
           </div>
           
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Pure Water Source
               </h3>
@@ -64,7 +64,7 @@ const CompanyStory = () => {
               </ul>
             </div>
             
-            <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Our Mission
               </h3>

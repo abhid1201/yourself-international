@@ -5,7 +5,7 @@ const Facility = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 ">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             World-Class Facility
           </h2>
@@ -16,17 +16,17 @@ const Facility = () => {
         
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8">
-              <div className="flex items-center space-x-4 mb-6">
+            <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8 shadow-lg">
+              <div className="flex items-center space-x-4 mb-6 ">
                 <Factory className="h-10 w-10 text-blue-600" />
                 <h3 className="text-2xl font-bold text-gray-900">Modern Infrastructure</h3>
               </div>
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="bg-white rounded-lg p-4 text-center">
+                <div className="bg-white rounded-lg p-4 text-center shadow-lg">
                   <div className="text-2xl font-bold text-blue-600 mb-1">19,000</div>
                   <div className="text-sm text-gray-600">Sq. Ft. Facility</div>
                 </div>
-                <div className="bg-white rounded-lg p-4 text-center">
+                <div className="bg-white rounded-lg p-4 text-center shadow-lg">
                   <div className="text-2xl font-bold text-teal-600 mb-1">2</div>
                   <div className="text-sm text-gray-600">RO Plants</div>
                 </div>
@@ -45,13 +45,13 @@ const Facility = () => {
           </div>
           
           <div className="grid grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-xl p-6 text-center">
+            <div className="bg-blue-50 rounded-xl p-6 text-center shadow-lg">
               <Zap className="h-8 w-8 text-blue-600 mx-auto mb-3" />
               <div className="text-xl font-bold text-blue-600 mb-1">12,000</div>
               <div className="text-sm text-gray-600">L/hr per RO Plant</div>
             </div>
             
-            <div className="bg-teal-50 rounded-xl p-6 text-center">
+            <div className="bg-teal-50 rounded-xl p-6 text-center shadow-lg">
               <Package className="h-8 w-8 text-teal-600 mx-auto mb-3" />
               <div className="text-xl font-bold text-teal-600 mb-1">120</div>
               <div className="text-sm text-gray-600">BPM Filling Speed</div>

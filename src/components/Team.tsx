@@ -71,19 +71,19 @@ const Team = () => {
               </div>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                
                   <span className="text-gray-700 text-sm">🚀 Technology-first approach</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-600 rounded-full"></div>
+                
                   <span className="text-gray-700 text-sm">🌱 Sustainability-driven</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
+      
                   <span className="text-gray-700 text-sm">🤝 Customer trust</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
+                
                   <span className="text-gray-700 text-sm">🧠 Expertise-led quality</span>
                 </div>
               </div>

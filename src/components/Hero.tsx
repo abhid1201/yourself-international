@@ -18,18 +18,18 @@ const Hero = () => {
 {/* Bottle - Left (Shifted Left using translate-x) */}
 <div className="flex absolute left-0 top-0 bottom-0 items-center z-0 pointer-events-none">
   <img 
-    src="/lovable-uploads/bottle.png" 
+    src="/lovable-uploads/bottle3.jpg" 
     alt="Bottle Left" 
-    className="rotate-[25deg] opacity-20 w-[320px] sm:w-[360px] md:w-[420px] lg:w-[500px] xl:w-[600px] object-contain -translate-x-6"
+    className="rotate-[25deg] opacity-20 w-[280px] sm:w-[360px] md:w-[420px] lg:w-[500px] xl:w-[600px] object-contain -translate-x-6"
   />
 </div>
 
-{/* Bottle - Right (Shifted Right using translate-x) */}
+{/* Bottle - Right (Rotated but NOT Flipped) */}
 <div className="flex absolute right-0 top-0 bottom-0 items-center z-0 pointer-events-none">
   <img 
-    src="/lovable-uploads/bottle.png" 
+    src="/lovable-uploads/bottle1.jpg" 
     alt="Bottle Right" 
-    className="-rotate-[25deg] scale-x-[-1] opacity-20 w-[320px] sm:w-[360px] md:w-[420px] lg:w-[500px] xl:w-[600px] object-contain translate-x-6"
+    className="-rotate-[25deg] opacity-20 w-[270px] sm:w-[360px] md:w-[420px] lg:w-[500px] xl:w-[600px] object-contain translate-x-6"
   />
 </div>
 
@@ -52,7 +52,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-600 mb-4 animate-fade-in">
-          Premium Water Brands: <span className="font-semibold text-teal-600">Swara</span> & <span className="font-semibold text-blue-600">Aqua Liva</span>
+          Premium Water Brands: <span className="font-semibold text-blue-600">Swara</span> & <span className="font-semibold text-pink-600">Aqua Liva</span>
         </p>
         
         <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto animate-fade-in">
@@ -93,10 +93,9 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Arrow */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ArrowDown className="h-6 w-6 text-gray-400" />
-      </div>
+      <div className="absolute left-1/2 transform -translate-x-1/2 animate-bounce" style={{ bottom: '10px' }}>
+  <ArrowDown className="h-6 w-6 text-gray-400" />
+</div>
     </section>
   );
 };
